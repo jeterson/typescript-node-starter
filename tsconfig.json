@@ -28,7 +28,10 @@
       "@entities/*": [
         "src/entities/*"
       ],
-      "@config/*": ["src/config/*"]
+      "@config/*": ["src/config/*"],
+      "@repositories/*": ["src/repositories/*"],
+      "@useCases/*": ["src/useCases/*"],
+      "@utils/*": ["src/utils/*"]
     }
   },
   "include": [
