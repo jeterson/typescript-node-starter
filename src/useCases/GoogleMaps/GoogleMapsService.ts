@@ -12,7 +12,7 @@ export class GoogleMapsService {
                 params: {
                     origins: [{ lat: origem.lat, lng: origem.lng }],
                     destinations: [{ lat: destino.lat, lng: destino.lng }],
-                    key: 'AIzaSyAUm8QE8kSOP69HCFN-ka8hMdLAUDULlmM',
+                    key: '<api key>',
                 },
                 timeout: 5000
             })
